@@ -97,8 +97,10 @@ dvwaMessagePush( "Backup file /config/config.inc.php.bak automatically created" 
 // Done
 dvwaMessagePush( "<em>Setup successful</em>!" );
 
+/*
 if( !dvwaIsLoggedIn())
 	dvwaMessagePush( "Please <a href='login.php'>login</a>.<script>setTimeout(function(){window.location.href='login.php'},5000);</script>" );
 dvwaPageReload();
+*/
 
 ?>
